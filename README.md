@@ -46,3 +46,6 @@ chattr +i /www/server/panel/data/plugin.json
 ```
 sed -i "s|if (bind_user == 'REMOVED') {|if (bind_user == 'True') {|g" /www/server/panel/BTPanel/static/js/index.js
 ```
+解锁所有付费插件命令:
+
+curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash one_key_happy.sh
